@@ -1,0 +1,11 @@
+/home/shiv/Projects/angular/angularShop/Infrastructure/bin/Debug/netstandard2.0/Infrastructure.deps.json
+/home/shiv/Projects/angular/angularShop/Infrastructure/bin/Debug/netstandard2.0/Infrastructure.dll
+/home/shiv/Projects/angular/angularShop/Infrastructure/bin/Debug/netstandard2.0/Infrastructure.pdb
+/home/shiv/Projects/angular/angularShop/Infrastructure/bin/Debug/netstandard2.0/Core.dll
+/home/shiv/Projects/angular/angularShop/Infrastructure/bin/Debug/netstandard2.0/Core.pdb
+/home/shiv/Projects/angular/angularShop/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.csprojAssemblyReference.cache
+/home/shiv/Projects/angular/angularShop/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.AssemblyInfoInputs.cache
+/home/shiv/Projects/angular/angularShop/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.AssemblyInfo.cs
+/home/shiv/Projects/angular/angularShop/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.csproj.CopyComplete
+/home/shiv/Projects/angular/angularShop/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.dll
+/home/shiv/Projects/angular/angularShop/Infrastructure/obj/Debug/netstandard2.0/Infrastructure.pdb

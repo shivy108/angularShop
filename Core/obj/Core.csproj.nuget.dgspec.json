@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/shiv/Projects/angular/angularShop/Core/Core.csproj": {}
+    "/home/shiv/Code/angular/angularShop/Core/Core.csproj": {}
   },
   "projects": {
-    "/home/shiv/Projects/angular/angularShop/Core/Core.csproj": {
+    "/home/shiv/Code/angular/angularShop/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shiv/Projects/angular/angularShop/Core/Core.csproj",
+        "projectUniqueName": "/home/shiv/Code/angular/angularShop/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/home/shiv/Projects/angular/angularShop/Core/Core.csproj",
+        "projectPath": "/home/shiv/Code/angular/angularShop/Core/Core.csproj",
         "packagesPath": "/home/shiv/.nuget/packages/",
-        "outputPath": "/home/shiv/Projects/angular/angularShop/Core/obj/",
+        "outputPath": "/home/shiv/Code/angular/angularShop/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/shiv/.nuget/NuGet/NuGet.Config"

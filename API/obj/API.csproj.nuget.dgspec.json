@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/shiv/Projects/angular/angularShop/API/API.csproj": {}
+    "/home/shiv/Code/angular/angularShop/API/API.csproj": {}
   },
   "projects": {
-    "/home/shiv/Projects/angular/angularShop/API/API.csproj": {
+    "/home/shiv/Code/angular/angularShop/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shiv/Projects/angular/angularShop/API/API.csproj",
+        "projectUniqueName": "/home/shiv/Code/angular/angularShop/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/home/shiv/Projects/angular/angularShop/API/API.csproj",
+        "projectPath": "/home/shiv/Code/angular/angularShop/API/API.csproj",
         "packagesPath": "/home/shiv/.nuget/packages/",
-        "outputPath": "/home/shiv/Projects/angular/angularShop/API/obj/",
+        "outputPath": "/home/shiv/Code/angular/angularShop/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/shiv/.nuget/NuGet/NuGet.Config"
@@ -25,8 +25,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/shiv/Projects/angular/angularShop/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/home/shiv/Projects/angular/angularShop/Infrastructure/Infrastructure.csproj"
+              "/home/shiv/Code/angular/angularShop/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/shiv/Code/angular/angularShop/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "/home/shiv/Projects/angular/angularShop/Core/Core.csproj": {
+    "/home/shiv/Code/angular/angularShop/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shiv/Projects/angular/angularShop/Core/Core.csproj",
+        "projectUniqueName": "/home/shiv/Code/angular/angularShop/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/home/shiv/Projects/angular/angularShop/Core/Core.csproj",
+        "projectPath": "/home/shiv/Code/angular/angularShop/Core/Core.csproj",
         "packagesPath": "/home/shiv/.nuget/packages/",
-        "outputPath": "/home/shiv/Projects/angular/angularShop/Core/obj/",
+        "outputPath": "/home/shiv/Code/angular/angularShop/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/shiv/.nuget/NuGet/NuGet.Config"
@@ -126,14 +126,14 @@
         }
       }
     },
-    "/home/shiv/Projects/angular/angularShop/Infrastructure/Infrastructure.csproj": {
+    "/home/shiv/Code/angular/angularShop/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/shiv/Projects/angular/angularShop/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/home/shiv/Code/angular/angularShop/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/home/shiv/Projects/angular/angularShop/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/home/shiv/Code/angular/angularShop/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/shiv/.nuget/packages/",
-        "outputPath": "/home/shiv/Projects/angular/angularShop/Infrastructure/obj/",
+        "outputPath": "/home/shiv/Code/angular/angularShop/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/shiv/.nuget/NuGet/NuGet.Config"
@@ -147,8 +147,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/shiv/Projects/angular/angularShop/Core/Core.csproj": {
-                "projectPath": "/home/shiv/Projects/angular/angularShop/Core/Core.csproj"
+              "/home/shiv/Code/angular/angularShop/Core/Core.csproj": {
+                "projectPath": "/home/shiv/Code/angular/angularShop/Core/Core.csproj"
               }
             }
           }

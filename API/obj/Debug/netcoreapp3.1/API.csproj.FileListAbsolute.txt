@@ -124,3 +124,5 @@
 /home/shiv/Code/angular/angularShop/API/obj/Debug/netcoreapp3.1/API.csproj.CopyComplete
 /home/shiv/Code/angular/angularShop/API/obj/Debug/netcoreapp3.1/staticwebassets/API.StaticWebAssets.Manifest.cache
 /home/shiv/Code/angular/angularShop/API/obj/Debug/netcoreapp3.1/staticwebassets/API.StaticWebAssets.xml
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

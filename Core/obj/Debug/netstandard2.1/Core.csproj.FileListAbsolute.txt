@@ -1,0 +1,8 @@
+/home/shiv/Code/angular/angularShop/Core/bin/Debug/netstandard2.1/Core.deps.json
+/home/shiv/Code/angular/angularShop/Core/bin/Debug/netstandard2.1/Core.dll
+/home/shiv/Code/angular/angularShop/Core/bin/Debug/netstandard2.1/Core.pdb
+/home/shiv/Code/angular/angularShop/Core/obj/Debug/netstandard2.1/Core.csprojAssemblyReference.cache
+/home/shiv/Code/angular/angularShop/Core/obj/Debug/netstandard2.1/Core.AssemblyInfoInputs.cache
+/home/shiv/Code/angular/angularShop/Core/obj/Debug/netstandard2.1/Core.AssemblyInfo.cs
+/home/shiv/Code/angular/angularShop/Core/obj/Debug/netstandard2.1/Core.dll
+/home/shiv/Code/angular/angularShop/Core/obj/Debug/netstandard2.1/Core.pdb

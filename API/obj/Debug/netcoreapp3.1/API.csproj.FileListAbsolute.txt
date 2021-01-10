@@ -138,3 +138,16 @@
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Diagnostics.PerformanceCounter.dll
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll

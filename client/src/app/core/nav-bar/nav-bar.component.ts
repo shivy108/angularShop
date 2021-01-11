@@ -27,12 +27,7 @@ export class NavBarComponent implements OnInit {
   }
 
   onClick() {
-    if (this.click) {
-      this.click = false;
-    } else {
-      this.click = true;
-    }
-    return this.click;
+    this.click = !this.click;
   }
 
 }

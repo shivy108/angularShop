@@ -1,5 +1,5 @@
 <div
-  class="d-flex flex-column flex-md-row align-items-center justify-content-between p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm fixed-top">
+  class="d-flex  navbar-dark bg-dark flex-column flex-md-row align-items-center justify-content-between p-3 px-md-4 border-bottom shadow-sm fixed-top">
   <img class="logo" src="/assets/images/logo.png" style="max-height: 70px;" alt="logo" routerLink='/'>
   <nav class="my-2 my-md-0 mr-md-3 text-uppercase" style="font-size: larger;">
     <a class="p-2 " [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
@@ -8,7 +8,7 @@
   </nav>
   <div class="d-flex align-items-center">
     <a routerLink="/basket" class="position-relative">
-      <i class="fa fa-shopping-cart fa-2x mr-5 text-dark"></i>
+      <i class="fa fa-shopping-cart fa-2x mr-5 text-light"></i>
       <div *ngIf="(basket$ | async) as basket" class="cart-no">{{basket.items.length}}</div>
     </a>
     <ng-container *ngIf="(currentUser$ | async) === null">
@@ -17,30 +17,31 @@
     </ng-container>
 
     <ng-container *ngIf="currentUser$ | async">
-      <div class="dd" (click)="onClick()">
-        <a class="dd-title">
+      <div class="dropdown" style="cursor: pointer;" (click)="onClick()">
+        <a style="cursor: pointer;">
           <strong>Hi, {{(currentUser$ | async).displayName}}!</strong>
         </a>
         <ng-container *ngIf="click">
-          <div class="dd-menu">
-            <a routerLink="/basket" class="dd-item">
+          <div class="d-flex flex-column dropdpwn-menu">
+            <a routerLink="/basket" style="cursor: pointer;">
               <i class="fa fa-shopping-cart mr-3"></i> View Basket
             </a>
-            <a routerLink="/orders" class="dd-item">
+            <a routerLink="/orders" style="cursor: pointer;">
               <i class="fa fa-history mr-3"></i> View Orders
             </a>
-           
-            <a (click)="logout()" class="dd-item">
+
+            <a (click)="logout()" style="cursor: pointer;">
               <i class="fa fa-sign-out mr-3"></i> Logout
             </a>
           </div>
 
+
         </ng-container>
+
 
       </div>
 
     </ng-container>
-
   </div>
 
 </div>

@@ -1,6 +1,6 @@
 <div
   class="d-flex  navbar-dark bg-dark flex-column flex-md-row align-items-center justify-content-between p-3 px-md-4 border-bottom shadow-sm fixed-top">
-  <img class="logo" src="/assets/images/logo.png" style="max-height: 70px;" alt="logo" routerLink='/'>
+  <h1 class="text-light">Base.</h1>
   <nav class="my-2 my-md-0 mr-md-3 text-uppercase" style="font-size: larger;">
     <a class="p-2 " [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
     <a class="p-2 " routerLink="/shop" routerLinkActive="active">Shop</a>
@@ -17,16 +17,16 @@
     </ng-container>
 
     <ng-container *ngIf="currentUser$ | async">
-      <div class="dropdown" style="cursor: pointer;" (click)="onClick()">
+      <div class=" text-success" style="cursor: pointer;" (click)="onClick()">
         <a style="cursor: pointer;">
-          <strong>Hi, {{(currentUser$ | async).displayName}}!</strong>
+          <strong>Hi, {{(currentUser$ | async).displayName}}! <i class="fa fa-chevron-down ml-1 border rounded-circle p-1 " style="font-size: 10px;"></i></strong>
         </a>
         <ng-container *ngIf="click">
-          <div class="d-flex flex-column dropdpwn-menu">
-            <a routerLink="/basket" style="cursor: pointer;">
-              <i class="fa fa-shopping-cart mr-3"></i> View Basket
+          <div class="d-flex flex-column p-1 bg-dark dropdown-menu" style="position: absolute;left: 90%;top: 60px;">
+            <a routerLink="/basket" class="mb-2" style="cursor: pointer;">
+              <i class="fa fa-shopping-cart mr-3 "></i> View Basket
             </a>
-            <a routerLink="/orders" style="cursor: pointer;">
+            <a routerLink="/orders" class="mb-2" style="cursor: pointer;">
               <i class="fa fa-history mr-3"></i> View Orders
             </a>
 

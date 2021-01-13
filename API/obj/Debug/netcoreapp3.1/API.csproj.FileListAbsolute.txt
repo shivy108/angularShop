@@ -151,3 +151,4 @@
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Stripe.net.dll

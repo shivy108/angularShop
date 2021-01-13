@@ -17,7 +17,7 @@
     </ng-container>
 
     <ng-container *ngIf="currentUser$ | async">
-      <div class=" text-success" style="cursor: pointer;" (click)="onClick()">
+      <div class=" text-secondary" style="cursor: pointer;" (click)="onClick()">
         <a style="cursor: pointer;">
           <strong>Hi, {{(currentUser$ | async).displayName}}! <i class="fa fa-chevron-down ml-1 border rounded-circle p-1 " style="font-size: 10px;"></i></strong>
         </a>

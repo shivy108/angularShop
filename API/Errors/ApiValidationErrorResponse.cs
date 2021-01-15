@@ -9,4 +9,4 @@ namespace API.Errors
         }
         public IEnumerable<string> Errors { get; set; }
     }
-} 
+}

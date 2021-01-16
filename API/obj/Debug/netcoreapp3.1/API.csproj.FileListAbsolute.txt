@@ -155,3 +155,7 @@
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/MySqlConnector.dll
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Data/SeedData/brands.json
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Data/SeedData/delivery.json
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Data/SeedData/products.json
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Data/SeedData/types.json

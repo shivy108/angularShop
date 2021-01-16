@@ -12,8 +12,12 @@ namespace API.Extensions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
+            services.AddSingleton<IResponseCacheService, ResponsCacheService>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IPaymentService, PaymentService>();
+            services.AddScoped<IOrderService, OrderService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.Configure<ApiBehaviorOptions>(options =>
@@ -21,14 +25,15 @@ namespace API.Extensions
                 options.InvalidModelStateResponseFactory = actionContext =>
                 {
                     var errors = actionContext.ModelState
-                    .Where(e => e.Value.Errors.Count > 0)
-                    .SelectMany(x => x.Value.Errors)
-                    .Select(x => x.ErrorMessage).ToArray();
+                        .Where(e => e.Value.Errors.Count > 0)
+                        .SelectMany(x => x.Value.Errors)
+                        .Select(x => x.ErrorMessage).ToArray();
 
                     var errorResponse = new ApiValidationErrorResponse
                     {
                         Errors = errors
                     };
+
                     return new BadRequestObjectResult(errorResponse);
                 };
             });

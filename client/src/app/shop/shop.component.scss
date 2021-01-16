@@ -1,0 +1,19 @@
+.list-group-item {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(32, 30, 30);
+   
+
+    &:focus {
+        outline: none;
+    }
+
+    &.active {
+        background-color: rgba(131, 5, 131, 0.705);
+    }
+
+    &:not(.active):hover {
+        background-color: rgba(107, 74, 106, 0.705);
+       
+    }
+}

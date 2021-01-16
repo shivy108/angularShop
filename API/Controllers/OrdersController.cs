@@ -66,4 +66,4 @@ namespace API.Controllers
             return Ok(await _orderService.GetDeliveryMethodsAsync());
         }
     }
-} 
+}

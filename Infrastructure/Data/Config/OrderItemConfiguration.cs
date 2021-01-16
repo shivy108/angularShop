@@ -14,4 +14,4 @@ namespace Infrastructure.Data.Config
                 .HasColumnType("decimal(18,2)");
         }
     }
-} 
+}

@@ -1,5 +1,3 @@
-using System;
-using System.Linq.Expressions;
 using Core.Entities.OrderAggregate;
 
 namespace Core.Specifications
@@ -20,4 +18,4 @@ namespace Core.Specifications
             AddInclude(o => o.DeliveryMethod);
         }
     }
-} 
+}

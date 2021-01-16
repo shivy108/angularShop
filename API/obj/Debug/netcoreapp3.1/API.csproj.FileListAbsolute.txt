@@ -152,3 +152,6 @@
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
 /home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Stripe.net.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/MySqlConnector.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
+/home/shiv/Code/angular/angularShop/API/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll
